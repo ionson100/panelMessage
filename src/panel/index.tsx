@@ -84,7 +84,7 @@ export interface ParamsPanel {
 
 
 
-export function ShowPanel(par: ParamsPanel){
+export function ShowPanel(par: ParamsPanel):void{
     const s=new Inserter(par.head,par.message,par.type,par.image,par.timeout)
     inserterR.addInserter(s)
 }
